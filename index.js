@@ -12,9 +12,9 @@ const calcy = () => {
 
     if ( perc <= 100 && perc >= 80) {
     grades = "A";
-    } else if ( perc <= 79 && perc >= 60) {
+    } else if ( perc <= 79.99 && perc >= 60) {
         grades = "B";
-    } else if ( perc <= 59 && perc >= 40) {
+    } else if ( perc <= 59.99 && perc >= 40) {
         grades = "c";
     } else {
         grades = "F";
